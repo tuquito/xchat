@@ -622,7 +622,7 @@ load_config (void)
 	prefs.show_away_once = 1;
 	prefs.indent_nicks = 1;
 	prefs.thin_separator = 1;
-	prefs._tabs_position = 2; /* 2 = left */
+	prefs._tabs_position = 0; /* 2 = left Modificado por Tuquito*/
 	prefs.fastdccsend = 1;
 	prefs.wordwrap = 1;
 	prefs.autosave = 1;
@@ -632,11 +632,11 @@ load_config (void)
 	prefs.recon_delay = 10;
 	prefs.text_replay = 1;
 	prefs.tabchannels = 1;
-	prefs.tab_layout = 2;	/* 0=Tabs 1=Reserved 2=Tree */
+	prefs.tab_layout = 0;	/* 0=Tabs 1=Reserved 2=Tree Modificado por Tuquito*/
 	prefs.tab_sort = 1;
 	prefs.paned_userlist = 1;
 	prefs.newtabstofront = 2;
-	prefs.use_server_tab = 1;
+	prefs.use_server_tab = 1; /* No modificado pero cambiar para Tuquito */
 	prefs.privmsgtab = 1;
 	/*prefs.style_inputbox = 1;*/
 	prefs.dccpermissions = 0600;

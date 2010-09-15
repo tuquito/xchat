@@ -408,7 +408,7 @@ fe_init (void)
 	tmr_list = 0;
 	tmr_list_count = 0;
 	prefs.autosave = 0;
-	prefs.use_server_tab = 0;
+	//prefs.use_server_tab = 0; /* Modificado por Tuquito */
 	prefs.autodialog = 0;
 	prefs.lagometer = 0;
 	prefs.slist_skip = 1;

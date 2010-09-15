@@ -911,6 +911,12 @@ servlist_load_defaults (void)
 	int i = 0, j = 0;
 	ircnet *net = NULL;
 
+	/* Agregado por Tuquito */
+	net = servlist_net_add ("Tuquito Server", NULL, FALSE);
+	servlist_server_add (net, "irc.debian.org");
+	net->autojoin = strdup (_("#tuquito"));
+	net->flags |= FLAG_AUTO_CONNECT;
+
 	while (1)
 	{
 		if (def[i].network)
